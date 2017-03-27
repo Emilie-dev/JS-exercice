@@ -14,3 +14,6 @@ console.log(mois[10]);
 // Exercice 5
  console.log(mois.splice(7, 1));
  console.log(mois.splice(7, 0, "août"));
+
+ // Exercice 6
+ var mois = [];
