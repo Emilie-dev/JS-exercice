@@ -124,11 +124,29 @@ console.log(presentation("Dupont", "Jean", 32));
 
 // Correction exo 7
 function whoAreYou(age, genre) {
-	age = age > 18 ? "majeur" : "mineur";
+	age = age > 18 ? "et vous êtes majeur" : "et vous êtes mineur";
 	return genre === "homme" ? "Vous êtes un homme" : "Vous êtes une femme";
 }
 console.log(whoAreYou(19, "homme"));
-console.log(whoAreYou(17,"femme"));
+console.log(whoAreYou(17, "femme"));
 console.log(whoAreYou(15, "homme"));
 console.log(whoAreYou(26, "femme"));
 
+// Exercice 8
+function addition() {
+
+}
+console.log(3, 4, 5, 6);
+
+
+
+
+
+
+
+// Les boucles
+
+// Exercice 1
+for (var i = 0; i <= 10; i++) {
+	return i;
+}
