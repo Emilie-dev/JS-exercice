@@ -36,3 +36,12 @@ function bool (a, b) {
 		return false
 	}
 }
+
+var result = bool(67, 23);
+console.log(result);
+
+
+// Exercice 2
+function foo("Hello") {
+	console.log(a);
+}
