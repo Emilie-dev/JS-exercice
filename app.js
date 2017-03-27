@@ -15,6 +15,7 @@ console.log(mois[10]);
 
 // Exercice 5
  console.log(mois.splice(7, 1));
+
  console.log(mois.splice(7, 0, "août"));
 
  // Exercice 6
@@ -42,6 +43,10 @@ console.log(result);
 
 
 // Exercice 2
-function foo("Hello") {
-	console.log(a);
+function chaine() {
+	console.log("Hello");
 }
+chaine();
+
+
+// Exercice 3
