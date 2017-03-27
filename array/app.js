@@ -16,7 +16,15 @@ console.log(array);
 array.splice(2, 0, "Poire");
 console.log(array);
 
-// Exercice 12
+/* Exercice 12
 for (i = 0; i < array.lenght; i++) {
 	console.log(array[[i]]);
-}
+};*/
+
+// Tentative de correction avec Jordan
+for (var i = 0, i < array.lenght, i++) {
+	console.log(array[i]);
+	for (var l = 0, l < array[i].lenght, i++) {
+		console.log(array[i][l]);
+	}
+};
