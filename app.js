@@ -1,3 +1,5 @@
+// Les tableaux
+
 // Exercice 1
 var mois = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre","octobre", "novembre", "décembre"];
 console.log(mois);
@@ -16,4 +18,21 @@ console.log(mois[10]);
  console.log(mois.splice(7, 0, "août"));
 
  // Exercice 6
- var mois = [];
+ for (var i = 0; i < mois.lenght; i++) {
+ 	console.log(mois[i]);
+ }
+
+
+
+
+ // Les fonctions
+
+ // Exercice 1
+function bool (a, b) {
+
+	if (a > b) {
+		return true
+	} else {
+		return false
+	}
+}
