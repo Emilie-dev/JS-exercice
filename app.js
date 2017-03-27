@@ -43,10 +43,16 @@ console.log(result);
 
 
 // Exercice 2
-function chaine() {
-	console.log("Hello");
+function chaine(string) {
+	return string;
 }
-chaine();
+
 
 
 // Exercice 3
+function foo(string, chaine) {
+	return string + chaine;
+}
+console.log(foo); 
+
+// Exercice 4
